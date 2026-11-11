@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a09">
+  <!-- META:START -->
+  <title>sinkandsource - Security writeups</title>
+  <meta name="description" content="sinkandsource - notes on security vulnerabilities, exploitation, and systems.">
+  <link rel="canonical" href="https://sinkandsource.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="sinkandsource - Security writeups">
+  <meta property="og:description" content="notes on security vulnerabilities, exploitation, and systems.">
+  <meta property="og:url" content="https://sinkandsource.com/">
+  <meta property="og:site_name" content="sinkandsource">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="sinkandsource - Security writeups">
+  <meta name="twitter:description" content="notes on security vulnerabilities, exploitation, and systems.">
+  <!-- META:END -->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="shell">
+    <header class="site-header">
+      <a class="wordmark" href="/#writeups" aria-label="sinkandsource home">sinkandsource<span class="cursor">_</span></a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="/#writeups" data-nav="writeups">[writeups]</a>
+        <a href="/#about" data-nav="about">[about]</a>
+        <button class="nav-button" id="search-toggle" type="button" aria-expanded="false" aria-controls="search-panel" title="Search writeups ( / )">[search]</button>
+      </nav>
+    </header>
+
+    <p class="intro">notes on security vulnerabilities, exploitation, and systems.</p>
+
+    <section class="search-panel" id="search-panel" aria-label="Search writeups">
+      <div class="search-row">
+        <span class="search-mark" aria-hidden="true">&gt;</span>
+        <label class="sr-only" for="search-input">Search writeups</label>
+        <input class="search-input" id="search-input" type="search" placeholder="search titles, descriptions, and tags..." autocomplete="off">
+        <span class="search-hint">ESC to close</span>
+      </div>
+    </section>
+
+    <main id="main-content" tabindex="-1">
+      <div id="app" class="layout" aria-live="polite"></div>
+    </main>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@18.1.0/lib/marked.umd.js" integrity="sha384-IvVdUXkhyoD0shbjhiiOnuiTbervTaB0VJcnEcg3shUAMVOOF6lKj4ozJrCwvz6s" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js" integrity="sha384-+pxiN6T7yvpryuJmE1gM9PX7yQit15auDb+ZwwvJOd/4be2Cie5/IuVXgQb/S9du" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.4.10/dist/purify.min.js" integrity="sha384-eguRoJERj8ghOpzO//Rl7+ScQsQIR1cH+ajll7+fG+IpbNPlkZsQn9h8ccr+wPXx" crossorigin="anonymous"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
