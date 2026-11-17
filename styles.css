@@ -426,7 +426,16 @@ background: #151a16;
 color: var(--green);
 font-size: 0.9em;
 }
-.article-body img { display: block; max-width: 100%; height: auto; margin: 22px 0; }
+.article-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 22px 0;
+  border: 1px solid var(--line-soft);
+  border-left: 3px solid var(--green);
+  padding: 12px;
+  background: #151a16;
+}
 .article-body hr { border: 0; border-top: 1px solid var(--line-soft); margin: 28px 0; }
 .table-scroll { overflow-x: auto; margin: 22px 0; }
 .article-body table { width: 100%; border-collapse: collapse; font-size: 14px; text-align: left; }
